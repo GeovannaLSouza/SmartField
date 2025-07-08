@@ -1,0 +1,48 @@
+.banner {
+    background-image: url("/assets/logotransparent.png");
+    background-size: cover;
+    background-position: center;
+    width: 153;
+    height: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-overlay {
+    padding: 30;
+    border-radius: 12px;
+    text-align: center;
+    color: #F0EAD2;
+
+    position: absolute;
+    top: -140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50px; 
+    margin-bottom: 1;
+    padding-top: 5px; 
+    font-weight: 400;
+    margin: 0 0 10px 0;
+}
+
+.banner h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 50px;    
+    margin-bottom: 0.5rem;
+    padding-top: 40px;  
+    font-weight: 600;
+    margin: 30%;
+}
+
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
