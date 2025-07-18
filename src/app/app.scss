@@ -97,3 +97,61 @@ button {
   font-weight: 500;
   color: #3b4c20;
 }
+
+.news-section {
+  font-family: 'Urbanist', sans-serif;
+  padding: 223px 40px 80px 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.news-card {
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.news-image {
+  width: 472px;
+  height: 394px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.news-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-content h3 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3b4c20;
+  margin-bottom: 15px;
+}
+
+.news-content p {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-date {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 0.9rem;
+  color: #8ca432;
+  font-weight: 500;
+  margin-top: auto;
+}
