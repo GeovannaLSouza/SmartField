@@ -14,12 +14,35 @@ body {
 
 .about {
   font-family: 'Urbanist', sans-serif;
-  padding: 80px 40px;
+  padding: 10px 60px;
   background-color: #fafaf2; 
   text-align: center;
+  margin-bottom: 140px;
 }
 
+.about h2 {
+  color:#8ca432 ;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: 'Urbanist', sans-serif;
+  margin-bottom: 40px; 
+  margin-top: 30px;
+}
 
+.about h1 {
+  color: #8ca432;
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Urbanist', sans-serif;
+  margin-bottom: 50px; 
+}
+
+.about p{
+  font-weight: 500;
+  font-size: 19px;
+  color: #333;
+}
 .hero {
   font-family: 'Urbanist', sans-serif;
   background-image: url('/assets/head.jpg'); 
@@ -72,8 +95,16 @@ button {
 }
 
 .benefits {
+  font-family: 'Urbanist', sans-serif;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  margin-top: 60px; 
+  margin-bottom: 60px; 
+
+  padding: 20px;
 }
 
 .benefit-item {
@@ -108,12 +139,47 @@ button {
   color: #3b4c20;
 }
 
+.news-section4 { //noticia sobre as vaquinhas
+  font-family: 'Urbanist', sans-serif;
+  padding: 223px 40px 80px 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: -140px;
+}
+
+.news-card4 { //noticia sobre asd vaquinhas
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.news-image4 { //noticia sobre as vaquinhas
+  width: 472px;
+  height: 394px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.news-content4 { //noticia sobre as vaquinhas
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .news-section3 { //noticia sobre a uva
   font-family: 'Urbanist', sans-serif;
   padding: 223px 40px 80px 40px;
   background-color: #fff;
   display: flex;
   justify-content: center;
+  margin-top: -150px;
 }
 
 .news-card3 { //noticia sobre a uva
@@ -147,6 +213,7 @@ button {
   background-color: #fff;
   display: flex;
   justify-content: center;
+  margin-top: -150px;
 }
 
 .news-card2 { //noticia sobre a soja
@@ -159,13 +226,13 @@ button {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
-.news-image2 { //noticia sobre a soja
+.news-image {
   width: 472px;
   height: 394px;
   object-fit: cover;
-  border-top-left-radius: 12px;
-  border-bottom-left-radius: 12px;
+  border-radius: 12px; 
 }
+
 
 .news-content2 { //noticia sobre a soja
   padding: 30px;
@@ -180,6 +247,7 @@ button {
   background-color: #fff;
   display: flex;
   justify-content: center;
+  margin-top: -140px;
 }
 
 .news-card { //noticia sobre o diesel
@@ -218,7 +286,7 @@ button {
 .news-content p {
   font-family: 'Urbanist', sans-serif;
   font-size: 1.1rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   color: #333;
   margin-bottom: 10px;
