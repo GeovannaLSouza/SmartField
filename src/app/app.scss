@@ -72,19 +72,29 @@ button {
 }
 
 .benefits {
-  font-family: 'Urbanist', sans-serif;
   display: flex;
   justify-content: center;
-  gap: 60px;
-  padding: 80px 40px;
-  background-color: #fff;
-  flex-wrap: wrap;
 }
 
 .benefit-item {
-  max-width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 8px;
+  width: 180px;
+  text-decoration: none; 
+  color: inherit; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.benefit-item:hover {
+  background-color: #dceeff;
+}
+
 
 .benefit-item img {
   width: 80px;
@@ -98,7 +108,7 @@ button {
   color: #3b4c20;
 }
 
-.news-section {
+.news-section3 { //noticia sobre a uva
   font-family: 'Urbanist', sans-serif;
   padding: 223px 40px 80px 40px;
   background-color: #fff;
@@ -106,7 +116,7 @@ button {
   justify-content: center;
 }
 
-.news-card {
+.news-card3 { //noticia sobre a uva
   font-family: 'Urbanist', sans-serif;
   display: flex;
   max-width: 1200px;
@@ -116,7 +126,7 @@ button {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
-.news-image {
+.news-image3 { //noticia sobre a uva
   width: 472px;
   height: 394px;
   object-fit: cover;
@@ -124,7 +134,73 @@ button {
   border-bottom-left-radius: 12px;
 }
 
-.news-content {
+.news-content3 { //noticia sobre a uva
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-section2 { //noticia sobre a soja
+  font-family: 'Urbanist', sans-serif;
+  padding: 223px 40px 80px 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.news-card2 { //noticia sobre a soja
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.news-image2 { //noticia sobre a soja
+  width: 472px;
+  height: 394px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.news-content2 { //noticia sobre a soja
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.news-section { //noticia sobre o diesel
+  font-family: 'Urbanist', sans-serif;
+  padding: 223px 40px 80px 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.news-card { //noticia sobre o diesel
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.news-image { //noticia sobre o diesel
+  width: 472px;
+  height: 394px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.news-content { //noticia sobre o diesel
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -154,4 +230,23 @@ button {
   color: #8ca432;
   font-weight: 500;
   margin-top: auto;
+}
+
+.btn h3{
+  font-family: 'Urbanist', sans-serif;
+  display: inline-block;      
+  background-color: #8ca432; 
+  color: white;               
+  padding: 12px 24px;         
+  text-decoration: none;      
+  border-radius: 6px;         
+  font-weight: 600;         
+  font-size: 16px;           
+  transition: background-color 0.3s ease; 
+  cursor: pointer;           
+  margin: 20px 0;             
+}
+
+.btn:hover {
+  background-color: #8ca432;  
 }
