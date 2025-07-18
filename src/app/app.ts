@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +6,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.scss']
 })
 export class AppComponent {
-  title = 'smartfield';
+  title = 'SmartField';
 
-  scrollToNews() {
-    const section = document.getElementById('news-section');
+  scrollToSection(sectionId: string): void {
+    const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
