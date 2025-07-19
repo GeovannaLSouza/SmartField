@@ -2,21 +2,25 @@
   <div class="hero-overlay">
     <img src="assets/logotransparent.png" alt="Logo SmartField" class="logo" />
     <h1>Agro is now. Agro is <span class="bold">SmartField</span></h1>
-    <button (click)="scrollToSection('benefits')">Find out more</button>
+    <button (click)="scrollToSection()">Find out more</button>
   </div>
 </section>
 
+<router-outlet>
+</router-outlet>
+
+
 <section class="benefits" id="benefits">
-  <a href="maquinario.html" class="benefit-item">
+  <a href="src/maquinario.html" class="benefit-item">
     <h3>Machinery Suggestion</h3>
   </a>
-  <a href="em.alta.html" class="benefit-item">
+  <a href="src/em.alta.html" class="benefit-item">
     <h3>Trending Today</h3>
   </a>
-  <a href="clima.html" class="benefit-item">
+  <a href="src/clima.html" class="benefit-item">
     <h3>Weather and Forecast</h3>
   </a>
-  <a href="cotacao.html" class="benefit-item">
+  <a href="src/cotacao.html" class="benefit-item">
     <h3>Agricultural Quotation</h3>
   </a>
 </section>
@@ -121,3 +125,12 @@
     </div>
   </div>
 </section>
+
+<footer class="footer">
+  <p>© 2025 SmartField — Amateur project created by Geovanna Souza Morila</p>
+  <div class="social-links">
+    <a href="mailto:geovannamorila@gmail.com"> Contact</a>
+    <a href="https://www.linkedin.com/in/geovanna-lopes-souza" target="_blank">LinkedIn</a>
+    <a href="https://github.com/GeovannaLSouza" target="_blank">GitHub</a>
+  </div>
+</footer>

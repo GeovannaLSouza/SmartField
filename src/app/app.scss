@@ -318,3 +318,36 @@ button {
 .btn:hover {
   background-color: #8ca432;  
 }
+
+.footer {
+  background-color: #3B4C20;
+  color: #F0EAD2;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+
+  p {
+    margin-bottom: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    a {
+      color: #d8dfc9;
+      text-decoration: none;
+      font-family: 'Urbanist', sans-serif;
+      font-weight: 400;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}
